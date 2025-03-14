@@ -164,8 +164,8 @@ load_config() {
   PLAYLIST_END="$NO_OF_SEARCH_RESULTS"
 
   FZF_DEFAULT_OPTS=${YT_X_FZF_OPTS:-'
-    --color=fg:#000000,fg+:#333333,bg:#ffffff,bg+:#000000
-    --color=hl:#ffffff,hl+:#333333,info:#333333,marker:#333333
+    --color=fg:#000000,fg+:#ffffff,bg:#ffffff,bg+:#000000
+    --color=hl:#ffffff,hl+:#888888,info:#333333,marker:#333333
     --color=prompt:#000000,spinner:#333333,pointer:#000000,header:#000000
     --color=border:#000000,label:#333333,query:#000000
     --border="rounded" --border-label="" --preview-window="border-rounded" --prompt="> "
